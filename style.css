@@ -1,0 +1,66 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8d1e1; /* Cor de fundo suave em rosa claro */
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #ff9bc0; /* Rosa mais forte */
+    color: white;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .main-content {
+    padding: 40px 20px;
+  }
+  
+  .kitty-image img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 1.2em;
+    background-color: #ff66b2; /* Cor de rosa vibrante */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff3385; /* Rosa mais escuro ao passar o mouse */
+  }
+  
+  footer {
+    background-color: #ff9bc0;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer p {
+    color: white;
+    font-size: 0.9em;
+  }
+  
